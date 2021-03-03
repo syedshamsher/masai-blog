@@ -1,0 +1,253 @@
+body{
+    font-family: Rubik, 'Helvetica', 'Arial', sans-serif;
+    background-color: #1f0b3b;
+}
+#background-heading{
+    background: linear-gradient(to bottom, rgba(24,24,24,0.25), #181818),url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1572550180/blog-bg_x7mzfu.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+#search {
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: transparent;
+    padding-left: 30px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+#submit, #create{
+    margin-top:20px ;
+    margin-left:20px ;
+    width: 230px;
+    padding-right: 20px;
+    height: 45px;
+    border: 0.5px solid #fcf9fd;
+    background-color: #14051a;
+    color: white;
+    outline: none;
+}
+#about{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+#main-heading{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+.displayCont{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    color: #222;
+    font-size: 1.2rem;
+    margin: 0 auto 2rem;
+    max-width: 1000px;
+    max-height: 400px;
+    line-height: 8px;
+
+}
+.midDivCont{
+    display: flex;
+    flex-direction: column;
+}
+
+.displayTitle{
+    color:  #2E1437;
+    font-size: 60px;
+}
+
+
+.displayAuthor{
+    color:  #6a347e;
+    border: .1px solid rgb(216, 210, 210);
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.displayCreatedDate{
+    color:  #575558;
+    
+
+}
+
+
+.displayCategory{
+    color:  #2E1437;
+}
+
+
+.displayTags{
+    color:  #2E1437;
+
+}
+
+.displayId{
+    color:  #2E1437;
+
+}
+
+.displayCommentCount{
+    color: #2E1437;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.editBtn{
+    height: 40px;
+    /* margin-top: 60px; */
+    margin-right: 20px ;
+    width: 100px;
+    height: 25px;
+    border: 0.5px solid #2E1437;
+    background-color: #2E1437;
+    color: white;
+    outline: none;
+}
+
+.deleteBtn{
+    height: 40px;
+    margin-top: 60px;
+    margin-right: 20px ;
+    margin-left: 1%;
+    width: 100px;
+    height: 25px;
+    border: 0.5px solid #2E1437;
+    background-color: #2E1437;
+    color: white;
+    outline: none;}
+.viewBtn{
+    height: 40px;
+    margin-top: 60px;
+    margin-right: 20px ;
+    width: 100px;
+    height: 25px;
+    border: 0.5px solid #2E1437;
+    background-color: #2E1437;
+    color: white;
+    outline: none;
+}
+
+.btnDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overlay{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+}
+#popup{
+    width: 700px;
+    height: 650px;
+    background-color: #2E1437;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    border: 0.5 px solid white;
+    color: white;
+}
+
+#closeBtn{
+    height: 20px;
+    width: 100px;
+    margin-right: 20px ;
+    margin: auto;
+    border: 0.5px solid white;
+    background-color: #14051a;
+    color: white;
+    outline: none;
+    padding-bottom: 10px;
+}
+
+#show-comments{
+    overflow: scroll;
+    border: 1px solid grey;
+    padding: 10px;
+    width: 600px;
+    height: 150px;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+}
+.div2{
+    overflow: scroll;
+    width: 600px;
+    height: 180px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.div3{
+    display: flex;
+}
+.view-title{
+    font-size: 35px;
+}
+
+#newCommentBody{
+    width: 200px;
+    margin: 5px;
+}
+#newCommentAuthor{
+    margin: 10px;
+    width: 200px;
+}
+.commentBtn{
+    width: 200px;
+    height: 30px;
+    margin-right: 20px ;
+    margin: auto;
+    border: 0.5px solid #8f7199;
+    background-color:  #14051a;
+    color: white;
+    outline: none;
+    margin-bottom: 5px;
+}
+input{
+    width: 400px;
+    height: 40px;
+    border: 4px;
+    padding-left: 30px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+select{
+    width: 400px;
+    height: 40px;
+    border: 4px;
+    padding-left: 30px;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+#body{
+    height: 200px;
+    margin-left: 10px;
+}

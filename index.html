@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Masai Blog</title>
+</head>
+<style>
+</style>
+<body>
+    <div id="wrapper">
+        <div id="background-heading">
+            <div id="main-heading">Masai Blog</div>
+            <div id="about">Publish your passions, your way <br> Create a unique and beautiful blog. It’s easy and free.</div>
+        </div>
+        <div id="cont">
+                <input type="text" name="search" id="search" placeholder="Search Blog">
+                <input type="submit" name="submit" id="submit" value="SEARCH">
+                <button type="submit" id="create" placeholder="Create Blog">CREATE BLOG</button>
+        </div>
+
+        <div id="main">
+            <div id="res">
+
+            </div>
+        </div>
+
+        
+        <div id="popup1" class="overlay">
+            <div id="popup">
+                <div id="show-blog"></div>
+                <div id="add-comments">
+                    <div id="commentDiv">
+                        <input type="text" name="body" id="newCommentBody" placeholder="write comment" value="">
+                        <input type="text" name="author" id="newCommentAuthor" placeholder="name" value="">
+                        <div id="newBtn"></div>
+                    </div>
+                </div>
+                <div id="show-comments"></div>
+                <button id="closeBtn"> CLOSE </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
